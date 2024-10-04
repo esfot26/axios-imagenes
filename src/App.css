@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.imagen-estilo {
+  width: 350px; 
+  height: auto;
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin: 10px; 
+  transition: transform 0.3s ease; 
+}
+
+.imagen-estilo:hover {
+  transform: scale(1.05); 
+}
+
+.contenedor-imagen {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  margin-top: 20px;
+  
+}
+
+.boton-persanlizado {
+  border-radius: 20px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #00BFFF;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-top: 25px;
+}
+
+
+.boton-persanlizado:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,15 @@
+.boton-personalizado {
+    background-color: #00BFFF;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .boton-personalizado:hover {
+    background-color: darkblue;
+  }
+
+  
+  
